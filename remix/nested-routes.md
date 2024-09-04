@@ -61,7 +61,7 @@ export default function Posts() {
 
 ```bash
 ├── posts.tsx
-├── posts.design_.tsx
+├── posts.design_.tsx # (_) 추가
 └── posts.design.figma.tsx
 ```
 
