@@ -30,6 +30,7 @@ Remix에서 다음과 같은 구조의 파일이 있다고 가정해보자:
 
 ### 3. 주의할 점 / 참고할 점
 - `posts._index.tsx`가 생성되어 있으면 `posts.tsx`를 삭제해도 문제 없는 것을 확인함.
+- `_index.tsx`는 기본 라우트이며, 상위나 하위의 개념이 아니다.
 
 ### 4. 추가 참고 자료
 - [Remix v2 Lecture](https://www.udemy.com/course/remix-js-course/?couponCode=OF83024D)
