@@ -17,7 +17,7 @@ Remix에서 다음과 같은 구조의 파일이 있다고 가정해보자:
 
 이 구조는 다음과 같이 라우트를 표현한다.
 
-1. `/posts.$.tsx`: `/posts/design/figma` 라우트를 처리, `loader`함수에서 `['*']`로 경로 출력함.
+1. `/posts.$.tsx`: `/posts/design/figma` 라우트를 처리, `loader`함수에서 `['*']`로 경로를 출력함.
 
 <br/>
 
