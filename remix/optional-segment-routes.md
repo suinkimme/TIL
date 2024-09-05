@@ -38,7 +38,6 @@ export default function Posts() {
   const slug = useLoaderData<string>();
   return <div>Posts {slug}</div>;
 }
-
 ```
 
 ### 3. 주의할 점 / 참고할 점
