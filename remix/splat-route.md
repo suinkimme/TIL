@@ -23,7 +23,7 @@ Remix에서 다음과 같은 구조의 파일이 있다고 가정해보자:
 
 Remix 코드 예시:
 ```tsx
-// /posts.$.tsx (/posts/design/figma)
+// posts.$.tsx (/posts/design/figma)
 
 import { useLoaderData } from "@remix-run/react";
 import { LoaderFunctionArgs } from "@remix-run/node";
