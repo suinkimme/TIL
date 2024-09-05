@@ -26,7 +26,7 @@ Remix에서 다음과 같은 구조의 파일이 있다고 가정해보자:
 
 <br/>
 
-예를 들어, 사용자가 `/posts/design/figma` 페이지를 볼 때, Remix는 이 세 개의 라우트를 모두 랜더링하게 된다.
+예를 들어, 사용자가 `/posts/design/figma` 페이지를 볼 때, Remix는 이 세 개의 라우트를 모두 렌더링하게 된다.
 
 ```tsx
 <Posts>         // posts.tsx
