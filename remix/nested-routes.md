@@ -61,15 +61,15 @@ export default function Posts() {
 
 ```bash
 ├── posts.tsx
-├── posts.design_.tsx # (_) 추가
-└── posts.design.figma.tsx
+├── posts.design.tsx 
+└── posts.design_.figma.tsx # (_) 추가
 ```
 
 이 구조는 다음과 같이 라우트를 표현한다.
 
 1. `/posts.tsx`: `/posts` 라우트를 처리
-2. `/posts.design_.tsx`: `/posts/design` 라우트를 처리
-3. `/posts.design.figma.tsx`: `/posts/design/figma` 라우트를 처리, 상위 라우트인 `/posts.design_.tsx` 라우트는 처리하지 않음.
+2. `/posts.design.tsx`: `/posts/design` 라우트를 처리, 하위 라우트인 `/posts.design_.figma.tsx` 라우트는 처리하지 않음.
+3. `/posts.design_.figma.tsx`: `/posts/design/figma` 라우트를 처리, 상위 라우트인 `/posts.design.tsx` 라우트는 처리하지 않음.
 
 ### 3. 주의할 점 / 참고할 점
 - 중첩 라우트를 사용하여 여러 라우트가 공통으로 사용하는 레이아웃을 공유하는 패턴을 **Layout Sharing**이라고 함.
