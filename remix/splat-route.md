@@ -7,7 +7,7 @@
 
 ### 2. 주요 사용 사례 예시
 
-#### **예시 1**: `/posts/design/figma` 에서 `/posts` 뒤의 모든 경로 읽기
+#### **예시 1**: `/posts/design/figma` 에서 `/posts` 뒤의 모든 동적 매개변수 읽기
 
 Remix에서 다음과 같은 구조의 파일이 있다고 가정해보자:
 
@@ -17,7 +17,7 @@ Remix에서 다음과 같은 구조의 파일이 있다고 가정해보자:
 
 이 구조는 다음과 같이 라우트를 표현한다.
 
-1. `/posts.$.tsx`: `/posts/design/figma` 라우트를 처리, `loader`함수에서 `['*']`로 경로를 출력함.
+1. `/posts.$.tsx`: `/posts/design/figma` 라우트를 처리, `loader`함수에서 `['*']`로 동적 매개변수를 출력함.
 
 <br/>
 
