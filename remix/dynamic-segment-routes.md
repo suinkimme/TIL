@@ -45,7 +45,7 @@ export default function Posts() {
 
 ### 3. 주의할 점 / 참고할 점
 - `loader` 함수는 항상 데이터를 반환하거나, 최소한 `null`을 반환해야 함.
-- Remix는 `lodaer` 함수가 데이터를 반환하여 클라이어튼 컴포넌트에서 사용할 수 있도록 함.
+- Remix는 `lodaer` 함수가 데이터를 반환하여 클라이언트 컴포넌트에서 사용할 수 있도록 함.
 
 ### 4. 추가 참고 자료
 - [Remix v2 Lecture](https://www.udemy.com/course/remix-js-course/?couponCode=OF83024D)
