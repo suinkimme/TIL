@@ -121,6 +121,7 @@ export const meta: MetaFunction = ({ error }) => {
   return [{ title: error ? "oops!" : "Actual title" }];
 };
 ```
+- 해당 경로에서 발생한 에러 정보를 담고 있음.
 
 
 ### 3. 주의할 점 / 참고할 점
