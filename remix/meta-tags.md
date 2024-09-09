@@ -124,9 +124,7 @@ export const meta: MetaFunction = ({ error }) => {
 
 
 ### 3. 주의할 점 / 참고할 점
-- Remix의 기본 동작은 자식 라우트의 `meta`가 부모의 `meta`를 덮어쓰도록 되어 있다.
-- 메타 태그를 병합하거나, 전역 메타 태그를 루트에 직접 정의할 수 있다.
-- 부모와 자식 라우트 데이터를 병합하여 메타 데이터를 생성할 수 있다.
+-
 
 ### 4. 추가 참고 자료
 - [Remix docs - meta](https://remix.run/docs/en/main/route/meta)
