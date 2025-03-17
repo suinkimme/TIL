@@ -8,14 +8,13 @@
 
 ```python
 # first.py
-
 import second
 
 my_name = __name__
 print('first.py의 이름 : ', my_name) # 출력: first.py의 이름 : __main__
 ```
 
-`first.py`에서 `second.py`를 import해 프로그램을 실행하면 다음과 같은 결과가 출력된다. 참고로, Python에서 import로 모듈을 가져오면 해당 스크립트 파일이 한 번 실행된다. 따라서 second 모듈을 가져오면 `second.py` 안의 코드가 실행된다는 것.
+`first.py`에서 `second.py`를 import해 프로그램을 실행하면 다음과 같은 결과가 출력된다. 참고로, Python에서 import로 모듈을 가져오면 해당 스크립트 파일이 한 번 실행된다. 따라서 second 모듈을 가져오면 `second.py` 안의 코드가 실행된다.
 
 ```shell
 second.py의 이름 : second
